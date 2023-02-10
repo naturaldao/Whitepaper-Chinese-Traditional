@@ -19,3 +19,13 @@ description: 道易程將要帶來交易和支付的革命，並為DAO的治理�
 {% endembed %}
 
 道易程社群（DAism Community）的Discord: [https://discord.gg/mymgps3srU](https://discord.gg/mymgps3srU)
+
+
+
+道易程官網：[www.daism.io](https://www.daism.io)
+
+道易程社區：[daotodon.me](https://daotodon.me)
+
+Discord: [https://discord.gg/mymgps3srU](https://discord.gg/mymgps3srU)
+
+Telegram：[https://t.me/+ypbjPqbiBiBlN2Nl](https://t.me/+ypbjPqbiBiBlN2Nl)
