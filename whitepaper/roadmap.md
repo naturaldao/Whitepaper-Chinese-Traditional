@@ -1,4 +1,4 @@
-# 道議程發展規劃
+# 道易程發展規劃
 
 ## 道易程（DAism）的特色
 
@@ -17,7 +17,7 @@
 
 ## 項目管理暨智能體運作機制
 
-道易程由自然道（NaturalDAO）發起和運作。道易程是一個遵循開源協議CC0的公共平台，將完全采用開放的方式協作發展。&#x20;
+道易程由自然道（NaturalDAO）發起和運作。道易程是一個遵循開源協議CC0的公共平台，將完全采用開放的方式協作發展。
 
 ## 道易程開發社區介紹
 
@@ -60,8 +60,7 @@
 
     平台結構的探索
 7. 2020年Q3：人員變動，工作交替\
-   負責開發的聯合創始人離開、新人加盟，開發工作交替\
-
+   負責開發的聯合創始人離開、新人加盟，開發工作交替\\
 8.  2020年Q4：合約開發技術升級，前端開發啟動
 
     先後嘗試用鉆石標準和 Beacon Proxy（信標代理）重寫了兩版合約。
@@ -87,9 +86,10 @@
     [https://www.npmjs.com/package/web3-react](https://www.npmjs.com/package/web3-react)
 
     （主導者的Twitter：[https://twitter.com/NoahZinsmeister](https://twitter.com/NoahZinsmeister)）
-9.  項目首版內測
-
-    2021年Q4
-10. 項目首版開放
-
-    2022年Q1
+9. 2021年：全面復盤道易程的設計，並修改了多項協議和智能合約代碼的細節。
+10. 2023年3月，首次智能合約審計。審計公司為：[Fairyproof](https://www.fairyproof.com/)
+11. 2023年5月，第二輪審計。審計公司為：[Beosin](https://beosin.com/)
+12. 第三輪審計：[Fairyproof](https://www.fairyproof.com/)
+13. 第四輪審計：[Certik](https://www.certik.com/)
+14. 2023年Q4：部署到以太坊測試網絡公開測試
+15. 2024年Q1正式上線
