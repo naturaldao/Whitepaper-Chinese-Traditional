@@ -28,11 +28,6 @@ DAO這種智能體有準入制度嗎？
 
 我們相信DAO應該會采用完全開放的模式，即無需許可，大門敞開，界面和數據完全開放。它們基於開放透明的規則和智能算法來實現自我管理或被管理。
 
-因此關於DAO的準入制度，道易程的構架應該能做到：
-
-* 無需許可、完全開放。
-* 如果要對有意加入者進行資質審查，須借助第三方開發的“門衛”模塊——這是任何第三方都可以去開發的模塊。
-
 至於細則，我們認為需註意這些方面：
 
 1. 如果沒有初始化核心共識，那麽一個DAO就沒法構造，因為這就意味著沒有人擁有任何權力。我們的策略是默認DAO的創建者為創始人或其授權人，創建者有權構造出一個DAO的輪廓（DApp列表及其設置、流通代幣的發行規劃等等）。請註意，創建時，我們會列出每個類別裏面的所有DApp，而不僅僅是核心DApp，供創建者自由組合。
@@ -43,13 +38,11 @@ DAO這種智能體有準入制度嗎？
 6. 一個DAO創建成功，則自動獲得去中心化認證標識。
 7. DAO 應該是公共的，它不歸任何人、任何註冊於鏈下的組織或企業所私有。
 
-## **去中心化認證協議 Decentralized Authentication Procotolto** <a href="#deauthentication" id="deauthentication"></a>
+## 去中心化鑄造協議 Decentralized Minting Protocol <a href="#deauthentication" id="deauthentication"></a>
 
-DAism將為DAO和Dapp提供去中心化認證協議。認證機制非常簡單，因為當一個DAO在道易程上被創建的時候，它將註冊一個獨特的名稱，同時也將自動被分配一個去中心化自治基金會（DAF），其合約地址具有獨一無二的特性，這個名稱和DAF的合約地址即為其認證標識最重要的組成。其格式為：
+鑄造（Minting）即是合約交互，它是智能合約間最基礎的行為。DAism摒棄了虛幻的DID概念，為DAO的創建採用了極簡且極為可靠的去中心化認證手段，即DAO的創建始於某個合約地址下的智能合約的Minting請求而與其它任何DID無關。Mint協議可以證明一個DAO源於哪個智能合約，而此智能合約即能讓所有人知道其功用或目的，機制非常簡單也絕對真實可靠。它是創建DAO的唯一方式，也可作為DAO的創世證據，解決智能體及其發行的代幣和產品（如DApp）基於哪個核心智能合約的這一真實信息的關聯問題。
 
-Ⓓ DHonor 0xFC2C722b8fe7B3Ca277D349Cbad6D2c5ce2eCF9C
-
-即：認證標識、DAO的名稱、其DAF的合約地址 每家DAO所發行的產品（包括NFT等）和服務下都有該認證標識。 DAO的去中心化認證，可作為DAO的狀態（如創世和休眠）的證據，解決智能體及其發行的代幣和產品（如DApp）的真實信息的證明等問題。 DApp的去中心化認證，除了解決DApp真實信息的證明之外，還會解決DAism接口調用等需求。DApp獲得DAism的認證後（完成註冊），道易程之上的任何DAO都可以通過DAism Store的接口搜索和購買其服務或產品。
+同時，該協議也是一個公共資源協議，即Minting操作，也就是宣布某個智能合約或某個dApp（某些智能合約的組合）自身成為以太坊的公共資源————我們稱其為智能資產（Smart Property）。這也就是說，接受道易程治理的DAO/dApp，即為智能資產。
 
 ## **去中心化自治基金會協議（Protocol of DAF，Protocol of Decentralized Autonomous Fundation）** <a href="#daf" id="daf"></a>
 
@@ -155,7 +148,7 @@ DAism將為DAO和Dapp提供去中心化認證協議。認證機制非常簡單�
 
 [https://1155.goh.cool/](https://1155.goh.cool/)
 
-[https://honor.goh.cool](https://honor.goh.cool/latest)****
+[https://honor.goh.cool](https://honor.goh.cool/latest)\*\*\*\*
 
 ## **圖片存儲標準**
 
