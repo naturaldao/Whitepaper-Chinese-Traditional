@@ -9,5 +9,4 @@
 * [道易程框架](whitepaper/framework.md)
 * [道易程協議](whitepaper/protocols.md)
 * [IADD 網絡](whitepaper/iadd.md)
-* [DAism Store](whitepaper/store.md)
 * [道易程發展規劃](whitepaper/roadmap.md)
