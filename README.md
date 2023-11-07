@@ -5,6 +5,10 @@ description: >-
 
 # 概述
 
+**說明：道易程白皮書需要一次大更新！但估計會延後很長時間。建議您先看看我們**[**YouTube頻道的視頻**](https://www.youtube.com/@daismcore8822)**和**[**Gamma文檔**](https://gamma.app/public/1-ht43d86c5lhu0rn)**。**
+
+
+
 道易程是以太坊通證經濟和DAO的價值體系的公共治理層。
 
 這意味着道易程是一個讓 DAO暨dApp 繁衍生息，讓通證經濟蓬勃發展的公共治理層。
