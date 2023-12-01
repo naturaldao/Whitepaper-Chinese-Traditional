@@ -1,10 +1,10 @@
 # Table of contents
 
-* [概述](README.md)
+* [說明](README.md)
 
 ## 白皮書 <a href="#whitepaper" id="whitepaper"></a>
 
-* [簡介](whitepaper/summary.md)
+* [概述](whitepaper/summary.md)
 * [道易程的結構](whitepaper/architecture.md)
 * [道易程框架](whitepaper/framework.md)
 * [道易程協議](whitepaper/protocols.md)
