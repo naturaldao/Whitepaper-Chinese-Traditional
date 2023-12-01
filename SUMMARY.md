@@ -6,6 +6,6 @@
 
 * [概述](whitepaper/summary.md)
 * [道易程價值共識的構成](whitepaper/framework.md)
-* [道易程協議](whitepaper/protocols.md)
+* [道易程PoV中的治理協議 v2.0](whitepaper/protocols.md)
 * [IADD 網絡](whitepaper/iadd.md)
 * [道易程發展規劃](whitepaper/roadmap.md)
