@@ -78,7 +78,7 @@ description: 各種治理協議的交聯是非常複雜的。
 
     更多細節請訪問“IADD網絡”的“[計量單位通證協議](iadd.md#utoken)”。
 
-計量單位通證 uToken是道易程獨創的價值單位制里的幣價基準物。它會最大程度地降低代幣應用的覆雜度，也完全符合去中心化市場的需要。
+計量單位通證 uToken是道易程獨創的價格單位制里的幣價基準物。它會最大程度地降低代幣應用的覆雜度，也完全符合去中心化市場的需要。
 
 ## 去中心化交易協議（Protocol of Decentralized Exchange） <a href="#dex-pay" id="dex-pay"></a>
 
