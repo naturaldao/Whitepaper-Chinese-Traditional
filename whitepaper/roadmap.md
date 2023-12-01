@@ -10,11 +10,9 @@
 
 ## 道易程開發社區介紹
 
-自然道是道易程的開發社區。如果您感興趣，可以訪問這裏：
+自然道是道易程的開發社區。創始成員：[https://naturaldao.io/about-cn.html](https://naturaldao.io/about-cn.html)
 
-[https://naturaldao.io/en/about.html](https://naturaldao.io/en/about.html)
-
-或者中文版：[https://naturaldao.io/about-cn.html](https://naturaldao.io/about-cn.html)
+當前社區成員介紹：[https://www.daism.io/zh-tw/](https://www.daism.io/zh-tw/)
 
 ## 道易程發展路線圖
 
