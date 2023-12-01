@@ -63,13 +63,13 @@ description: 各種治理協議的交聯是非常複雜的。
 
 計量單位通證是道易程的 IADD （去中心化交易和去中心化支付2合1網絡）中，通過恆定乘積算法（constant product formula），為一切估值通證定價的通證。
 
-這是道易程的一個核心創新。該協議的核心是一種叫uToken的單位通證。
+這是道易程的一個核心創新。該協議的核心是一種叫uToken的單位通證（價格原器，價格基準物）。
 
 1.  uToken 由 ETH 鍛造獲取，亦即定價通證有一個非常獨特的發行機制——你也可以理解為uToken是ETH的變體，其價值源於以太坊。uToken也是後面要介紹的 IADD 網絡核心要素。
 
     詳情請訪問“IADD網絡”部分的“[計量單位通證uToken的發行：ETH鍛造](https://dcn.naturaldao.io/whitepaper/iadd#forge)”
-2. uToken 是一種非常獨特的代幣。它是道易程定義的一種價格基準物（單位通證），被定義為 1 uToken = 1 vita。和我們熟知的**國際單位制**的質量的基本單位類似，道易程有[一套價格單位](https://dcn.naturaldao.io/whitepaper/iadd#ji-liang-dan-wei-zhi)用於計算估值通證（代幣）的價格。其中vita是代幣**價格的基本單位**。
-3. 道易程平台裡面的一切估值通證的即時價格，都以計量通證 uToken 為基準物，以 vita為計價單位，通過恆定乘積算法（constant product formula）計算獲取。
+2. uToken 是一種非常獨特的代幣。它是道易程定義的一種單位通證（價格原器，價格基準物），被定義為 1 uToken = 1 vita。和我們熟知的**國際單位制**的質量的基本單位類似，道易程有[一套價格單位](https://dcn.naturaldao.io/whitepaper/iadd#ji-liang-dan-wei-zhi)用於計算估值通證（代幣）的價格。其中vita是代幣**價格的基本單位**。
+3. 道易程平台裡面的一切估值通證的即時價格，都以計量通證 uToken 為單位通證（價格原器，價格基準物），以 vita為計價單位，通過恆定乘積算法（constant product formula）計算獲取。
 4.  vita是通證價格的基本單位。\
     計量通證 uToken 是道易程的去中心化交易和支付網絡（IADD網絡）中的定價基準物，它的價格的基本單位為vita。那麽也就是說，凡涉及到通證交易或者支付時，一律以 vita為價格的基本單位來標價。就支付來說，道易程生態裏的一切產品和服務的售價，也都以 vita為價格的基本單位來標價。如：\
     1 ISM = 0.01 vita\
