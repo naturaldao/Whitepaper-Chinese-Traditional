@@ -4,17 +4,15 @@ description: ver 1.0 stable
 
 # 道易程協議
 
-DAism框架以一些原創協議為核心。這些核心治理協議是道易程的基石，其中一些將會成為以太坊的公共標準，譬如我們已經將通證圖片鏈上存儲協議的接口標準，轉為EIP-2569而提交給以太坊。我們也把新創的通證技術標準轉為EIP-3712。
+如前所述，道易程PoV中有七大治理協議：
 
-DAism框架的治理協議主要有：
-
-* DAO硬核協議（去中心化自治智能體核心協議，DAO Hardcore Protocol）
-* 去中心化認證協議 Decentralized Authentication Procotol
+* DAO硬核協議（DAO Hardcore Protocol）
+* 去中心化鑄造協議 Decentralized Minting Protocol
 * 去中心化自治基金會協議（Protocol of DAF，Protocol of Decentralized Autonomous Fundation）
+* 估值通證供應協議（Protocol of Valuation Token's Supply）
 * 計量單位通證協議（Protocol of Unit Token）
-* 代幣供應協議（Protocol of Token's Circulating Supply）
 * 去中心化交易協議（Protocol of Decentralized Exchange）
-* 去中心化支付協議（Protocol of Decentralized Payment）
+* 通用支付協議（Protocol of Universal Payment）
 
 隨著道易程的發展，未來我們還可能會根據應用的需求而發展一些新的協議。
 
