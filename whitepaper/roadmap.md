@@ -75,7 +75,7 @@
     [https://www.npmjs.com/package/web3-react](https://www.npmjs.com/package/web3-react)
 
     （主導者的Twitter：[https://twitter.com/NoahZinsmeister](https://twitter.com/NoahZinsmeister)）
-9. 2021年：全面復盤道易程的設計，並修改了多項協議和智能合約代碼的細節。
+9. 2021年：全面復盤道易程的設計，並修改了多項協議和智能合約代碼的細節。發表了EIP-3712通證標準。
 10. 2023年3月，首次智能合約審計。審計公司為：[Fairyproof](https://www.fairyproof.com/)
 11. 2023年5月，第二輪審計。審計公司為：[Beosin](https://beosin.com/)
 12. 第三輪審計：[Fairyproof](https://www.fairyproof.com/)
