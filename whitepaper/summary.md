@@ -70,9 +70,9 @@ Coinbase和Paradigm兩個項目的聯合創始人Fred Ehrsam和Dan Robinson於20
 
 AI 的發展正撲面而來，它與區塊鏈的強強聯合也只是時間問題。我們建議將2.0的 DAO 提升為Decentralized Autonomous Organism。吐故納新，是為了保證DAO還能與時俱進，不斷防範人類的bug帶來的破壞。
 
-## 道易程的價值共識對通證經濟和DAO/dApp的治理
+## 道易程的價值證明對通證經濟和DAO/dApp的治理
 
-道易程通過原創的價值共識（PoV，Proof of Value），通過構建起良好的通證經濟（Good Tokenomics），以獎勵為驅動力，促進dApp的發展。
+道易程通過原創的價值證明（PoV，Proof of Value），通過構建起良好的通證經濟（Good Tokenomics），以獎勵為驅動力，促進dApp的發展。
 
 1. 良好的通證經濟（Good Tokenomics）\
    道易程通過價格計量方面的創新（價格單位制）等方面的創新，構建出合理的去中心化交易網絡（IADD Network）。\
