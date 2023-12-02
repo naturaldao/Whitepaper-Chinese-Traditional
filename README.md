@@ -4,8 +4,6 @@ description: 這是道易程白皮書2.0
 
 # 說明
 
-經過四年半的開發探索，道易程白皮書需要一次大更新！這也許要花很長的時間。建議您先看看我們[**YouTube頻道的視頻**](https://www.youtube.com/@daismcore8822)**和**[**Gamma文檔**](https://gamma.app/public/1-ht43d86c5lhu0rn)**。**
-
 道易程是以太坊通證經濟和DAO的價值體系的公共治理層。
 
 道易程繼承了比特幣工作量證明（和以太坊權益證明）的治理思想，其原創的治理共識為價值證明（PoV，Proof of Value）。
@@ -23,5 +21,7 @@ description: 這是道易程白皮書2.0
 {% endembed %}
 
 道易程官網：[www.daism.io](https://www.daism.io)
+
+道易程 [**YouTube頻道的視頻**](https://www.youtube.com/@daismcore8822) **和** [**Gamma文檔**](https://gamma.app/public/1-ht43d86c5lhu0rn)**。**
 
 Discord: [https://discord.gg/mymgps3srU](https://discord.gg/mymgps3srU)
