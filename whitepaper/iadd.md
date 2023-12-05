@@ -2,11 +2,11 @@
 description: Instantly and Automatically Deployed DeSwap Network
 ---
 
-# IADD 網絡
+# PoV（價值證明）的IADD Network
 
 ## **概述**
 
-IADD 網絡，是道易程原創的一個通用的估值通證的去中心化交易網絡。
+IADD 網絡，是道易程原創的一個通用的去中心化交易網絡。它主要為dApp提供一種估值模型，也搞定了區塊鏈一直沒解決的通用支付及結算需求。
 
 這裡的估值通證指的是按我們創立的EIP-3712通證標準發行的通證。
 
