@@ -31,18 +31,6 @@ IADD 網絡的主要功用：
    ① 可以永久自運行是智能合約的優勢。\
    ② 完全自運行即為無人值守，亦即抗人為干預。
 
-## 縮略詞
-
-DEX——Decentralized Exchange，去中心化交易所。
-
-Improved CPMM——在Uniswap裏得到應用的恒定乘積做市商模型（CPMM）是一種非線性幣幣兌換算法。我們進行了改良。
-
-ISC—— IADD Smart Contract，我們部署的去中心化交易智能合約，它使用和班科網絡類似的技術手段，為所有ERC20通證自動構建出其去中心化交易協議。
-
-Unit Token, uToken——ISC智能合約部署的計量通證。
-
-IADD Network(Instantly and Automatically Deployed DeSwap Network)——即刻自動部署的去中心化兌換網絡，它是一個去中心化交易和去中心化支付2合1網絡。
-
 ## 構成 IADD 網絡的主要協議
 
 1. 計量通證協議\
@@ -59,7 +47,9 @@ IADD Network(Instantly and Automatically Deployed DeSwap Network)——即刻自
 
 ### 計量單位通證協議簡介
 
-在此協議中，計量單位通證（價格原器，價格基準物）為 uToken，基本價格單位為 vita，也就是說一個 uToken的價格被定義為 1 vita。uToken的發行機制為ETH鍛造，其精度為18位。
+該協議致力於價格單位制。這將是人類貨幣史上的一大創新！
+
+在此協議中，基本價格單位為 vita，價格原器（定價基準物）為 uToken，也就是說一個 uToken的價格被定義為 1 vita。uToken的發行機制為ETH鍛造，其精度為18位。這也意味着價格的最小單位 attovita 是 vita 的 10^-18。
 
 ### 計量單位制：
 
