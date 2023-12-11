@@ -125,13 +125,12 @@ Hayden Adams. 2018：[https://hackmd.io/@477aQ9OrQTCbVR3fq1Qzxg/HJ9jLsfTz?type=v
     x: 鍛造池 ETH 數量\
     y: 鍛造池 uToken 數量\
     x \* y = k\
-    第N位早鳥的獎勵為：\
-    獎金\
-    ![](../.gitbook/assets/rewards02.png)\
+    第N位早鳥的獎勵R為：\
+    $$R = Δy_{n} = y_{n-1} - y_{n}= (k \div x_{0}) - (k \div x_{1}) = k \times(1/x_{0}-1/x_{1})$$\
     其中\
-    ![](../.gitbook/assets/rewards03.png)
+    $$x_{n} = x_{n-1} + \Delta x_{n}$$
 
-    最後一項就是第n個人鍛造掉的ETH
+    $$\Delta x_{n}$$就是第n個人鍛造掉的ETH
 3. 初始化K值\
    我們以至2022年11月30日 EIP-1559 已經burn掉的 ETH 為初始化的 ETH 總數。譬如我現在（20221130，00:00 香港時間）看到已經燒毀 2750240 個（[https://etherchain.org/burn](https://etherchain.org/burn)），其價值為：3320364758美元。這是全球用戶的損失，因此我們假設這些ETH都進入了鍛造池。\
    K = (2750240 \*3320364758)= 9,131,799,972,041,920 ≈ $9.1318e+15
