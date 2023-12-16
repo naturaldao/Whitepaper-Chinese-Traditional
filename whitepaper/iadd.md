@@ -55,7 +55,7 @@ IADD 網絡的主要功用：
 
 \*\*名稱：\*\*計量單位通證（Unit Token）
 
-簡稱：uToken
+簡稱：UTO
 
 \*\*貨幣符號：\*\*uTOKEN
 
