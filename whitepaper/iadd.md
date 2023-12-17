@@ -59,7 +59,7 @@ IADD 網絡的主要功用：
 
 **標誌：**
 
-<figure><img src="../.gitbook/assets/vita-s.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/vita-s.svg" alt="" width="64"><figcaption></figcaption></figure>
 
 **貨幣符號：**UTO
 
