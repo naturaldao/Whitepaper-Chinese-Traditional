@@ -79,4 +79,4 @@
 12. 第三輪審計：[Fairyproof](https://www.fairyproof.com/)
 13. 第四輪審計：[Certik](https://www.certik.com/)
 14. 2024年Q1：部署到以太坊測試網絡公開測試
-15. 2024年Q1正式上線
+15. 2024年Q2正式上線
