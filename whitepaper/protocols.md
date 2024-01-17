@@ -6,51 +6,55 @@ description: 各種治理協議的交聯是非常複雜的。
 
 如前所述，道易程PoV中有七大治理協議：
 
-* DAO硬核協議（DAO Hardcore Protocol）
+* 智能公器硬核协议（Smart Commons' Hardcore Protocol）
 * 去中心化鑄造協議 Decentralized Minting Protocol
-* 去中心化自治基金會協議（Protocol of DAF，Protocol of Decentralized Autonomous Fundation）
+* 去中心化自治基金協議（Protocol of DAF，Protocol of Decentralized Autonomous Fund）
 * 估值通證供應協議（Protocol of Valuation Token's Supply）
 * 計量單位通證協議（Protocol of Unit Token）
 * 去中心化交易協議（Protocol of Decentralized Exchange）
 * 通用支付協議（Protocol of Universal Payment）
 
-隨著道易程的發展，未來我們還可能會根據應用的需求而發展一些新的協議。
+## 智能公器硬核协议（Smart Commons' Hardcore Protocol） <a href="#daohardcore" id="daohardcore"></a>
 
-## **DAO硬核協議（DAO Hardcore Protocol）** <a href="#daohardcore" id="daohardcore"></a>
+* 智能公器硬核協議涵括智能公器所需要的基礎資料如插槽ID、項目英文名稱、項目Logo（SVG格式，建議不超過6K，否則實在太貴）、項目描述（可以是宣傳口號Slogan）、創建時間（平台記錄）、創始成員（匿名，只是ETH地址），專屬估值通證的名稱、簡稱和符號等等。
+* 在設置智能公器時，創建者可以手工添加一些地址到該智能公器作為其初始成員。地址上限為64人。
+* 該協議還包含智能公器的升級規則：它的dApp必須是可靠的。這意味着它的dApp一旦部署就不能被任何人修改。
 
-* DAO硬核協議涵括DAO所需要的基礎資料如插槽ID、項目英文名稱、項目Logo（SVG格式，建議不超過6K，否則實在太貴）、項目描述（可以是宣傳口號Slogan）、創建時間（平台記錄）、創始成員（匿名，只是ETH地址），專屬估值通證的名稱、簡稱和符號等等。
-* 在設置DAO時，創建者可以手工添加一些地址到這家DAO作為這家的DAO的初始成員。地址上限為64人。
-* 該協議還包含DAO的升級規則。
+如果你知道使命是[智能合約的可組合性](https://ethereum.org/zh/developers/docs/smart-contracts/composability)，你就知道這條規則有多重要。從技術上講，代理模式（Proxy Pattern）對於幾乎所有智能公器來說都是一種自殺方式。如果您發現dApp中存在錯誤，請修復它並將其作為新的dApp部署到以太坊，然後返回道易程將其逐出為智能公器的新版本。
+
+因此，數據分離（Data Separation）可能是一些dApp開發的最佳策略，並且合約遷移（Contract Migration）也可能可行。
+
+如果您需要一些幫助來了解dApp升級，[推薦閱讀本文](https://dev.to/joshuajee/smart-contract-upgrade-1ec2)。
 
 ## 去中心化鑄造協議 Decentralized Minting Protocol <a href="#deauthentication" id="deauthentication"></a>
 
-鑄造（Minting）即是合約交互，它是智能合約間最基礎的行為。DAism摒棄了當前虛幻的DID概念，為DAO的創建採用了極簡且極為可靠的去中心化認證手段，即DAO的創建始於某個合約地址下的智能合約的Minting請求而與當前其它任何DID無關。Mint協議可以證明一個DAO源於哪個智能合約，而此智能合約即能讓所有人知道其功用或目的，機制非常簡單也絕對真實可靠。它是創建DAO的唯一方式，也可作為DAO的創世證據，解決智能體及其專屬的估值通證和產品（如DApp）基於哪個核心智能合約的這一真實信息的關聯問題。
+鑄造（Minting）即是合約交互，它是智能合約間最基礎的行為。DAism摒棄了當前虛幻的DID概念，為smart common的創建採用了極簡且極為可靠的去中心化認證手段，即smart common的創建始於某個合約地址下的智能合約的Minting請求而與當前其它任何DID無關。Mint協議可以證明一個smart common源於哪個智能合約，而此智能合約即能讓所有人知道其功用或目的，機制非常簡單也絕對真實可靠。它是創建smart common的唯一方式，也可作為smart common的創世證據，解決智能體及其專屬的估值通證和dApp基於哪個核心智能合約的這一真實信息的關聯問題。
 
-同時，該協議中還包含了一個智能資產子協議，其名稱為 SC0（意為Smart Commons 0）。即Minting操作，也就是宣布某個智能合約或某個dApp（某些智能合約的組合）自身成為以太坊的公共資源（Public Goods）——我們稱其為智能公物（Smart Commons）。這也就是說，接受道易程治理的dApp，即為智能公物。
+同時，該協議中還包含了一個智能公器子協議，其名稱為 SC0（意為Smart Commons 0）。即Minting操作，也就是宣布某個智能合約或某個dApp（某些智能合約的組合）自身成為以太坊的公共資源（Public Goods）——我們稱其為智能公器（Smart Commons ）。這也就是說，接受道易程治理的dApp，即為智能公器。
 
 > **SC0 v0.1**
 >
-> 用一個dApp Mint一個 DAO 意味着該dApp接受本協議成為其唯一協議，也接受其所有者和管理者（我們稱之為DAO的成員）全部匿名這一事實。
+> 用一個dApp Mint一個Smart Commons意味着它接受了本協議的排他治理。
 >
-> 因為匿名，無人可證明某人是任何權利的享有者，也無人可證明某人是任何責任的背負者。
+> 我們都知曉dApp的所有者（或開發者或管理者）全部匿名這一事實。因為匿名，沒有誰可證明其為任何權利的享有者，也沒有誰可證明誰是任何責任的背負者。
 >
-> 1、無著作權\
-> 匿名意味着其開發的dApp完全貢獻至公共領域，將其歸屬於智能公物（Smart Commons），除能夠享受價值證明（Proof-of-Work）帶來的獎勵外，徹底放棄所有其它權利，包括所有相關權利和鄰接權利。
+> 1、接受道易程的治理。
 >
-> 2、無責任\
-> 匿名意味着這個世界上，沒有誰對一個dApp及其專屬估值通證提供任何形式的擔保，沒有誰承擔任何連帶責任。
+> 2、無著作權\
+> 匿名意味着其開發的dApp完全貢獻至公共領域，將其歸屬於智能公器（Smart Commons），除能夠享受價值證明（Proof-of-Value）帶來的獎勵外，徹底放棄（割裂）所有其它權利，包括所有相關權利和鄰接權利。
 >
-> 當使用或調用本dApp，或投資本DAO專屬估值通證時，任何人不得暗示本DAO或其任何聲明者為他或她的行為背書。
+> 3、無責任\
+> 匿名意味着這個世界上，沒有（無法確定）誰對一個dApp及其專屬估值通證提供任何形式的擔保，沒有誰（無法確定）承擔任何連帶責任。
+>
+> 當使用或調用本dApp，或投資本智能公物專屬估值通證時，任何人不得暗示本智能公器或其關聯的任何人（所有者、開發者、管理者）為他或她的行為背書。
 
-## **去中心化自治基金會協議（Protocol of DAF，Protocol of Decentralized Autonomous Fundation）** <a href="#daf" id="daf"></a>
+## **去中心化自治基金協議（Protocol of DAF，Protocol of Decentralized Autonomous Fund）** <a href="#daf" id="daf"></a>
 
-道易程的價值證明給每個DAO都提供了可以永續的獎勵。每家DAO也都有一個極簡的去中心化自治基金會（Decentralized Autonomous Fundation），該 DAF 可以調整獎金的分配，包括分配給哪些賬戶、每個賬戶被分配的額度（百分數）。
+道易程的價值證明給每個smart common都提供了可以永續的獎勵。每家smart common也都有一個極簡的去中心化自治基金（Decentralized Autonomous Fund），該 DAF 可以調整獎金的分配，包括分配給哪些賬戶、每個賬戶被分配的額度（百分數）。
 
 ## 估值通證供應協議（Protocol of Valuation Token's Supply） <a href="#tokensupply" id="tokensupply"></a>
 
-估值通證供應也叫哈耶克公約一（Hayek Convention No.1）。
-
-任何一個DAO都會發行其專屬的估值用通證（中文也可以稱其為估值用代幣）。估值通證的主要作用是讓投資者參與dApp的價值評估，並為道易程的共識價值證明提供獎金。
+任何一個智能公器都會發行其專屬的估值通證（中文也可以稱其為估值代幣）。估值通證的主要作用是讓投資者參與dApp的價值評估，並為道易程的共識價值證明提供獎金來源。
 
 該協議主要定義估值通證的技術標準、名稱、縮略符、Logo及其發行量、發行價。
 
@@ -62,26 +66,27 @@ description: 各種治理協議的交聯是非常複雜的。
 
 ## **計量單位通證協議（Protocol of Unit Token）** <a href="#utoken" id="utoken"></a>
 
-本協議也叫哈耶克公約二（Hayek Convention No.2）。
-
 計量單位通證是道易程的 IADD （去中心化交易和去中心化支付2合1網絡）中，通過恆定乘積算法（constant product formula），為一切估值通證定價的通證。
 
-這是道易程的一個核心創新。該協議的核心是一種叫uToken（Unit Token的簡稱）的單位通證（價格原器，價格基準物）。
+這是道易程的一個核心創新。該協議的核心是一種叫uToken（Unit Token的簡稱）的單位通證（價格原器）。
 
-1.  uToken 由 ETH 鍛造獲取，亦即定價通證有一個非常獨特的發行機制——你也可以理解為uToken是ETH的變體，其價值源於以太坊。uToken也是後面要介紹的 IADD 網絡核心要素。
-
-    詳情請訪問“IADD網絡”部分的“[計量單位通證uToken的發行：ETH鍛造](https://dcn.naturaldao.io/whitepaper/iadd#forge)”
-2. uToken 是一種非常獨特的代幣。它是道易程定義的一種單位通證（價格原器，價格基準物），被定義為 1 uToken = 1 vita。和我們熟知的**國際單位制**的質量的基本單位類似，道易程有[一套價格單位](https://dcn.naturaldao.io/whitepaper/iadd#ji-liang-dan-wei-zhi)用於計算估值通證（代幣）的價格。其中vita是代幣**價格的基本單位**。
-3. 道易程平台裡面的一切估值通證的即時價格，都以計量通證 uToken 為單位通證（價格原器，價格基準物），以 vita為計價單位，通過恆定乘積算法（constant product formula）計算獲取。
-4.  vita是通證價格的基本單位。\
-    計量通證 uToken 是道易程的去中心化交易和支付網絡（IADD網絡）中的定價基準物，它的價格的基本單位為vita。那麽也就是說，凡涉及到通證交易或者支付時，一律以 vita為價格的基本單位來標價。就支付來說，道易程生態裏的一切產品和服務的售價，也都以 vita為價格的基本單位來標價。如：\
-    1 ISM = 0.01 vita\
-    產品售價：0.5 vita/ kg\
-    服務費：200 vita/ 小時
-
-    更多細節請訪問“IADD網絡”的“[計量單位通證協議](iadd.md#utoken)”。
+1. uToken 由 ETH 鍛造獲取，亦即定價通證有一個非常獨特的發行機制——你也可以理解為uToken是ETH的變體，其價值源於以太坊。uToken也是後面要介紹的 IADD 網絡核心要素。uToken也是IADD網絡的每一個交易對裡面的必需通證。
+2. uToken 是一種非常獨特的通證。它是道易程定義的一種價格原器（單位通證），被定義為 1 uToken = 1 vita。和我們熟知的國際單位制的質量的基本單位類似，道易程有一套價格單位用於計算估值通證的價格。其中vita是通證價格的基本單位。
+3. 道易程平台裡面的一切估值通證的即時價格，都以價格原器 uToken 為基準，以 vita為計價單位，通過恆定乘積算法（constant product formula）計算獲取。
+4. vita是通證價格的基本單位。\
+   計量通證 uToken 是道易程的去中心化交易和支付網絡（IADD網絡）中的價格原器（定價基準物），它的價格的基本單位為vita。那麼也就是說，凡涉及到通證交易或者支付時，一律以 vita為價格的基本單位來標價。就支付來說，通證經濟生態里的一切產品和服務的售價，也都以 vita為價格的基本單位來標價。如：\
+   1 ISM = 0.01 vita\
+   產品售價：0.5 vita/ kg\
+   服務費：200 vita/ 小時
 
 計量單位通證 uToken是道易程獨創的價格單位制里的幣價基準物。它會最大程度地降低代幣應用的覆雜度，也完全符合去中心化市場以及通用支付（結算）的需要。
+
+### 為什麼我們需要ETH的變體？
+
+* ETH 錯過了作為價格原型的機會，因為它的價值已經被美國的法定貨幣綁架了。 每當市場熊市的時候，一些礦工就因為ETH價格大幅下跌而不得不退出，充分說明了這一問題。
+* ETH採用的發行策略不利於快速擴張的市場，因此它需要在短時間內大幅增加ETH的供應量。
+* ETH是以太坊區塊鏈的原生加密貨幣，與智能合約發行的通證不同。 這意味着它不遵守 ERC-20 或任何其他通證標準，使得它通常必須在供 dApp 使用之前要先鑄造成 WETH（ERC-20 代幣）。為了解決這個問題，創建變體的最佳策略是通過鍛造。
+* 在DAism的通證經濟學中，作為價格原型，uToken的價格是恆定的。 這使其成為投資結算或日常支付的理想代幣，類似於法定貨幣的日常使用。 與其他一些代幣不同，uToken 不能任意發行； 它需要有確定的價值來源。 此外，其發行必須遵循去中心化的方式以保持其信用。
 
 ## 去中心化交易協議（Protocol of Decentralized Exchange） <a href="#dex-pay" id="dex-pay"></a>
 
