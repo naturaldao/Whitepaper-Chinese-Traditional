@@ -20,7 +20,7 @@ description: 各種治理協議的交聯是非常複雜的。
 * 在設置智能公器時，創建者可以手工添加一些地址到該智能公器作為其初始成員。地址上限為64人。
 * 該協議還包含智能公器的升級規則：它的dApp必須是可靠的。這意味着它的dApp一旦部署就不能被任何人修改。
 
-如果你知道使命是[智能合約的可組合性](https://ethereum.org/zh/developers/docs/smart-contracts/composability)，你就知道這條規則有多重要。從技術上講，代理模式（Proxy Pattern）對於幾乎所有智能公器來說都是一種自殺方式。如果您發現dApp中存在錯誤，請修復它並將其作為新的dApp部署到以太坊，然後返回道易程將其逐出為智能公器的新版本。
+如果你知道使命是[智能合約的可組合性](https://ethereum.org/zh/developers/docs/smart-contracts/composability)，你就知道這條規則有多重要。從技術上講，代理模式（Proxy Pattern）對於幾乎所有智能公器來說都是一種自殺方式。如果您發現dApp中存在錯誤，請修復它並將其作為新的dApp部署到以太坊，然後返回道易程將其Mint為其智能公器的新版本。
 
 因此，數據分離（Data Separation）可能是一些dApp開發的最佳策略，並且合約遷移（Contract Migration）也可能可行。
 
