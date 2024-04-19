@@ -66,6 +66,8 @@ description: 各種治理協議的交聯是非常複雜的。
 
 ## **計量單位通證協議（Protocol of Unit Token）** <a href="#utoken" id="utoken"></a>
 
+此協議的目的是建立價格單位制！
+
 計量單位通證是道易程的 IADD （去中心化交易和去中心化支付2合1網絡）中，通過恆定乘積算法（constant product formula），為一切估值通證定價的通證。
 
 這是道易程的一個核心創新。該協議的核心是一種叫uToken（Unit Token的簡稱）的單位通證（價格原器）。
