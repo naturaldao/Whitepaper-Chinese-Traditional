@@ -193,7 +193,7 @@ Hayden Adams. 2018：[https://hackmd.io/@477aQ9OrQTCbVR3fq1Qzxg/HJ9jLsfTz?type=v
 * 該協議治理的是估值通證的交易機制。
 * 仍然採用Bancor創新的自動化做市商（Automated Market Maker, AMM）。價格發現機制與 Bancor Network 或 Uniswap 類似。即IADD網絡是道易程通用的去中心化交易和去中心化支付網絡。 道易程以定價通證uToken、智能公器專屬的估值通證、恆定乘積方程式、智能合約構成IADD網絡。
 * 通過估值通證供應協議的協同，智能合約用算法獨立治理流動性池，無需人參與。
-* 估值通證在 IADD 網絡有交易時，交易手續費（0.2%）作為獎金獎勵給其所屬DAO。
+* 估值通證在 IADD 網絡有交易時，交易手續費（交易量的0.2%）作為獎金獎勵給其所屬智能公器的開發者。
 
 ## 通用支付協議（Protocol of Universal Payment）
 
