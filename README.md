@@ -4,6 +4,8 @@ description: 這是道易程白皮書2.0
 
 # 說明
 
+（因為道易程已經完成白皮書協作，新版本請訪問[DAism.io](https://learn.daism.io/zh-tw/docs/whitepaper.html)）
+
 道易程是以太坊通證經濟和智能公器/dApp的公共治理層。
 
 道易程繼承了比特幣工作量證明（和以太坊權益證明）的治理思想，其原創的治理共識為價值證明（PoV，Proof of Value）。
